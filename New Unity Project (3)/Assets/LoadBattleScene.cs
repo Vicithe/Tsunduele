@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadGameScene : MonoBehaviour
+public class LoadBattleScene : MonoBehaviour
 {
     // Update is called once per frame
     void Update()
