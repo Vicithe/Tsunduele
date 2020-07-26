@@ -713,8 +713,25 @@
     <Compile Include="Assets\FungusExamples\FirstPerson\Scripts\SimpleMouseLook.cs" />
     <Compile Include="Assets\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
     <Compile Include="Assets\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUI.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIButton.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIData.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIImage.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUISlider.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\FlexibleUI\FlexibleUIText.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\DontDestroy.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\EventSystemChecker.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuObject.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuSettings.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\Pause.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\PlayMusic.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\QuitApplication.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\SetAudioLevels.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\ShowPanels.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\StartOptions.cs" />
     <Compile Include="Assets\LoadBattleScene.cs" />
     <Compile Include="Assets\LoadEndings.cs" />
+    <Compile Include="Assets\Scripts\MoveGameObjectBackAndForth.cs" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\FungusExamples\TheFacility\Fonts\aleo\SIL Open Font License.txt" />
@@ -733,6 +750,7 @@
     <None Include="Assets\FungusExamples\FungusTown\Readme.txt" />
     <None Include="Assets\Fungus\Integrations\Spine\Readme.txt" />
     <None Include="Assets\FungusExamples\FirstPerson\Visuals\Google Poly\Button\CC-BY.txt" />
+    <None Include="Assets\Game Jam Template\README.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\FungusExamples\FirstPerson\Visuals\Google Poly\Key\CC-BY.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Sprites\EmojiOne Attribution.txt" />
@@ -741,6 +759,7 @@
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
     <None Include="Assets\Fungus\Fonts\Amaranth\SIL Open Font License.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\FungusExamples\FungusLua\Localization\stringtable.txt" />
@@ -756,6 +775,7 @@
     <None Include="Assets\Fungus\Textures\Attribution.txt" />
     <None Include="Assets\Fungus\Docs\LICENSE.txt" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -1294,85 +1314,85 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Documents/Unity Projects/Partner Project/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/victo/Unity Projects/Tsunduele/New Unity Project (3)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
