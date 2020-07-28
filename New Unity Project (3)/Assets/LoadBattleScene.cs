@@ -6,13 +6,8 @@ using UnityEngine.SceneManagement;
 public class LoadBattleScene : MonoBehaviour
 {
     // Update is called once per frame
-    void Update()
+    public void OnMouseButton()
     {
-        //If statement is placeholder for now.
-        //Will determine once the Load screen is created what the trigger is to load the main game screen
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene("GameScene");
-        }
+        SceneManager.LoadScene("GameScene");
     }
 }

@@ -591,7 +591,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 84e18753f0806cf4ca726a650c3eaa6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -840,6 +840,11 @@ GameObject:
   - component: {fileID: 1273976101}
   - component: {fileID: 1273976100}
   - component: {fileID: 1273976114}
+  - component: {fileID: 1273976117}
+  - component: {fileID: 1273976116}
+  - component: {fileID: 1273976115}
+  - component: {fileID: 1273976119}
+  - component: {fileID: 1273976118}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -861,7 +866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  text: Option 3
+  text: '"Oh, it''s me."'
   description: 
   targetBlock: {fileID: 1273975912}
   hideIfVisited: 0
@@ -931,7 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 73.49468, y: -357.47812}
+  scrollPos: {x: 81.44921, y: 42.52188}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 417
@@ -943,9 +948,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1273976111}
-  selectedCommands:
-  - {fileID: 1273976114}
+  - {fileID: 1273975906}
+  selectedCommands: []
   variables:
   - {fileID: 1273975920}
   - {fileID: 1273975919}
@@ -989,7 +993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  text: Option 2
+  text: '"Actually...I was hoping to run into you."'
   description: 
   targetBlock: {fileID: 1273975906}
   hideIfVisited: 0
@@ -1091,7 +1095,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: NPC response 2. Your love increases.
+  storyText: 'She looks surprised and tries to scowl, but her cheeks are pink. "Oh?
+    About what?"
+
+    (Your love increases.)'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1118,7 +1125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: NPC response 1. Your pride increases.
+  storyText: "Her: \"Playing dumb, hmm? Somehow it suits you.\" \n(You feel insulted.)"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1145,7 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: Option 1
+  text: '"Um, who are you again?"'
   description: 
   targetBlock: {fileID: 1273975907}
   hideIfVisited: 0
@@ -1182,6 +1189,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975913}
+  - {fileID: 1273976119}
+  - {fileID: 1273976118}
   - {fileID: 1273975926}
   - {fileID: 1273975925}
   - {fileID: 1273975921}
@@ -1200,7 +1209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: NPC response 3. No change.
+  storyText: She waits for you to say something else.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1227,7 +1236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Oh, hello there.
+  storyText: 'Her: "Oh. It''s you."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15168,6 +15177,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975972}
+  - {fileID: 1273976115}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976042
 MonoBehaviour:
@@ -15195,6 +15205,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975973}
+  - {fileID: 1273976117}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976043
 MonoBehaviour:
@@ -15222,6 +15233,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975974}
+  - {fileID: 1273976116}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976044
 MonoBehaviour:
@@ -21313,7 +21325,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1273976114
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21330,6 +21342,117 @@ MonoBehaviour:
     stringVal: EndSceneNeutral
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1273976115
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 221
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: EndSceneNeutral
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1273976116
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 220
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: EndSceneGood
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1273976117
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 219
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: EndSceneBad
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1273976118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 223
+  indentLevel: 0
+  storyText: 'Her: "...So, we''re finally graduating, huh."'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1273976119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 222
+  indentLevel: 0
+  storyText: 'You: "..."'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1542990591
 GameObject:
   m_ObjectHideFlags: 0

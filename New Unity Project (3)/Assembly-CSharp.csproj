@@ -730,7 +730,6 @@
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\ShowPanels.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\StartOptions.cs" />
     <Compile Include="Assets\LoadBattleScene.cs" />
-    <Compile Include="Assets\LoadEndings.cs" />
     <Compile Include="Assets\Scripts\MoveGameObjectBackAndForth.cs" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
