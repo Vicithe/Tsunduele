@@ -652,7 +652,6 @@ GameObject:
   - component: {fileID: 1273975935}
   - component: {fileID: 1273975934}
   - component: {fileID: 1273975933}
-  - component: {fileID: 1273975931}
   - component: {fileID: 1273975930}
   - component: {fileID: 1273975929}
   - component: {fileID: 1273975928}
@@ -684,8 +683,6 @@ GameObject:
   - component: {fileID: 1273975950}
   - component: {fileID: 1273975949}
   - component: {fileID: 1273975948}
-  - component: {fileID: 1273975947}
-  - component: {fileID: 1273975946}
   - component: {fileID: 1273975945}
   - component: {fileID: 1273975944}
   - component: {fileID: 1273975943}
@@ -827,8 +824,6 @@ GameObject:
   - component: {fileID: 1273975972}
   - component: {fileID: 1273976113}
   - component: {fileID: 1273976112}
-  - component: {fileID: 1273976111}
-  - component: {fileID: 1273976110}
   - component: {fileID: 1273976109}
   - component: {fileID: 1273976108}
   - component: {fileID: 1273976107}
@@ -839,12 +834,22 @@ GameObject:
   - component: {fileID: 1273976102}
   - component: {fileID: 1273976101}
   - component: {fileID: 1273976100}
-  - component: {fileID: 1273976114}
   - component: {fileID: 1273976117}
   - component: {fileID: 1273976116}
   - component: {fileID: 1273976115}
   - component: {fileID: 1273976119}
   - component: {fileID: 1273976118}
+  - component: {fileID: 1273976122}
+  - component: {fileID: 1273976121}
+  - component: {fileID: 1273976120}
+  - component: {fileID: 1273975946}
+  - component: {fileID: 1273975931}
+  - component: {fileID: 1273976124}
+  - component: {fileID: 1273976123}
+  - component: {fileID: 1273976114}
+  - component: {fileID: 1273976111}
+  - component: {fileID: 1273976110}
+  - component: {fileID: 1273975947}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -908,7 +913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 78.40909
+    width: 76.79758
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -936,19 +941,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 81.44921, y: 42.52188}
+  scrollPos: {x: 442.58902, y: -66.25443}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 417
-  zoom: 0.8800001
+  zoom: 0.86574996
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1273975906}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1273975920}
@@ -1020,7 +1024,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 158
     y: 198
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1032,6 +1036,7 @@ MonoBehaviour:
   - {fileID: 1273975935}
   - {fileID: 1273975909}
   - {fileID: 1273975934}
+  - {fileID: 1273976121}
   - {fileID: 1273975928}
   - {fileID: 1273975927}
   suppressAllAutoSelections: 0
@@ -1051,7 +1056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 27
     y: 212
-    width: 81.81818
+    width: 83.26596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1063,6 +1068,7 @@ MonoBehaviour:
   - {fileID: 1273975916}
   - {fileID: 1273975910}
   - {fileID: 1273975915}
+  - {fileID: 1273976122}
   - {fileID: 1273975930}
   - {fileID: 1273975929}
   suppressAllAutoSelections: 0
@@ -1179,7 +1185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 310
     y: 186
-    width: 84.090904
+    width: 86.03812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1191,6 +1197,7 @@ MonoBehaviour:
   - {fileID: 1273975913}
   - {fileID: 1273976119}
   - {fileID: 1273976118}
+  - {fileID: 1273976120}
   - {fileID: 1273975926}
   - {fileID: 1273975925}
   - {fileID: 1273975921}
@@ -1627,7 +1634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  text: Option Text
+  text: '"Oh, does that mean you''ll miss me?"'
   description: 
   targetBlock: {fileID: 1273975922}
   hideIfVisited: 0
@@ -1654,7 +1661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 266
     y: 321
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1675,7 +1682,6 @@ MonoBehaviour:
   - {fileID: 1273975937}
   - {fileID: 1273975936}
   - {fileID: 1273975932}
-  - {fileID: 1273975931}
   - {fileID: 1273976068}
   - {fileID: 1273976067}
   - {fileID: 1273976066}
@@ -1705,7 +1711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 159
     y: 334
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1715,7 +1721,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975959}
-  - {fileID: 1273975947}
   - {fileID: 1273975958}
   - {fileID: 1273975957}
   - {fileID: 1273975956}
@@ -1756,7 +1761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 38
     y: 326
-    width: 84.090904
+    width: 86.03812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1766,7 +1771,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975971}
-  - {fileID: 1273975946}
   - {fileID: 1273975969}
   - {fileID: 1273975933}
   - {fileID: 1273975966}
@@ -1805,7 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  text: Option Text
+  text: '"And then I''ll never be glared at by you ever again."'
   description: 
   targetBlock: {fileID: 1273975923}
   hideIfVisited: 0
@@ -1830,7 +1834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  text: Option Text
+  text: '"Yup, and there''s nothing keeping me here one second longer."'
   description: 
   targetBlock: {fileID: 1273975924}
   hideIfVisited: 0
@@ -1855,7 +1859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  text: Option Text
+  text: '"You should know already, shouldn''t you?"'
   description: 
   targetBlock: {fileID: 1273975922}
   hideIfVisited: 0
@@ -1880,7 +1884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  text: Option Text
+  text: '"About us."'
   description: 
   targetBlock: {fileID: 1273975923}
   hideIfVisited: 0
@@ -1905,7 +1909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  text: Option Text
+  text: '"Just trying to find the lowest common denominator between us."'
   description: 
   targetBlock: {fileID: 1273975923}
   hideIfVisited: 0
@@ -1930,7 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  text: Option Text
+  text: '"At least <i>I''m</i> only playing at it.'
   description: 
   targetBlock: {fileID: 1273975924}
   hideIfVisited: 0
@@ -1953,9 +1957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 25
+  itemId: 228
   indentLevel: 0
-  storyText: You 6
+  storyText: Is this an opening?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1996,7 +2000,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 1
-  storyText: NPC pride > NPC love. Your pride increase, your love decreases.
+  storyText: Her eyes narrow. "Well maybe if you stopped playing and got serious
+    for once you could accomplish something with your life."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2327,7 +2332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 1
-  storyText: NPC love = NPC pride. No change.
+  storyText: '"...Whatever you say."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2901,7 +2906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 1
-  storyText: NPC pride < NPC love. Your pride decreases, your love increases.
+  storyText: 'Her: "This conversation is going in a weird direction."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3475,7 +3480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 1
-  storyText: NPC pride > NPC love. Your pride increase, your love decreases.
+  storyText: 'Her: "...What are you even saying?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3743,9 +3748,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 60
+  itemId: 227
   indentLevel: 0
-  storyText: You_4
+  storyText: You keep staring. Her cheeks go red and she looks away.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3770,9 +3775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 59
+  itemId: 234
   indentLevel: 0
-  storyText: You_5
+  storyText: '"...Yeah. So long." She gives a small wave, then turns and walks off.
+    You watch her turn the corner, wondering if you''ll ever see her again.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3813,7 +3819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 1
-  storyText: NPC love = NPC pride. No change.
+  storyText: 'Her: "Sure, I guess?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4387,7 +4393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 1
-  storyText: NPC pride < NPC love. Your pride decreases, your love increases.
+  storyText: She arches an eyebrow. "Oh, my. Are you trying to tell me something?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4961,7 +4967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 1
-  storyText: NPC pride > NPC love. Your pride increase, your love decreases.
+  storyText: She rolls her eyes. "Oh I'll miss this soooo much."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5397,7 +5403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 1
-  storyText: NPC love = NPC pride. No change.
+  storyText: She sighs. "Wow, you really know how to charm a girl, don't you?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6275,7 +6281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 1
-  storyText: NPC pride < NPC love. Your pride decreases, your love increases.
+  storyText: 'Her: "...Uh, I guess?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7092,7 +7098,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 198
   indentLevel: 0
-  storyText: Load the NEUTRAL ENDING scene.
+  storyText: The bell rings, officially signaling the end of the school year. The
+    words die on your tongue. You can't bring yourself to say it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7119,7 +7126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 197
   indentLevel: 0
-  storyText: Load the BAD ENDING scene.
+  storyText: The bell rings. Panic fills you. You can't let this moment pass, no
+    matter what!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7146,7 +7154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: Load the GOOD ENDING scene.
+  storyText: The bell chimes, startling you both. Her expression fills with alarm,
+    and she blurts out, "I really like you. Will you please be my girlfriend?"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7201,7 +7210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 193
   indentLevel: 2
-  text: Option Text
+  text: '"Okay already..."'
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -7726,7 +7735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -7994,7 +8003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -8533,7 +8542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 2
-  text: Option Text
+  text: Take a deep breath. "So..."
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -9058,7 +9067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 178
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -9326,7 +9335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -9865,7 +9874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 2
-  text: Option Text
+  text: '"Speaking of personalities..."'
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -10390,7 +10399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -10658,7 +10667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -11197,7 +11206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 160
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, well, actually..."'
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -11722,7 +11731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -11990,7 +11999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -12529,7 +12538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, actually..."'
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -13054,7 +13063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -13322,7 +13331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -13861,7 +13870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, well..."'
   description: 
   targetBlock: {fileID: 1273976042}
   hideIfVisited: 0
@@ -14386,7 +14395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 134
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976043}
   hideIfVisited: 0
@@ -14654,7 +14663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 2
-  text: Option Text
+  text: Wait for it...
   description: 
   targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
@@ -15167,7 +15176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 253
     y: 671
-    width: 130.68181
+    width: 135.013
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15177,6 +15186,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975972}
+  - {fileID: 1273976111}
+  - {fileID: 1273976110}
+  - {fileID: 1273975947}
   - {fileID: 1273976115}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976042
@@ -15195,7 +15207,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 98
     y: 725
-    width: 99.99999
+    width: 102.6711
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15205,6 +15217,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975973}
+  - {fileID: 1273976123}
+  - {fileID: 1273976114}
   - {fileID: 1273976117}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976043
@@ -15223,7 +15237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4
     y: 668
-    width: 111.36363
+    width: 113.75975
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15233,6 +15247,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273975974}
+  - {fileID: 1273976124}
   - {fileID: 1273976116}
   suppressAllAutoSelections: 0
 --- !u!114 &1273976044
@@ -15249,7 +15264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: You_12. No stat changes.
+  storyText: She stares at you blankly, seeming uninterested.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15276,7 +15291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: You_11. No stat changes.
+  storyText: 'Her: "Maybe. If the right person shows up."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15303,7 +15318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: You_10. NPC pride decrease, NPC love decrease.
+  storyText: 'Her: "Oh, and your personality is so much better, huh?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15634,7 +15649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: You_9. NPC pride decrease, NPC love increases.
+  storyText: 'Her: "...what? What is it? Why are you just staring at me?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16269,7 +16284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: You_8. NPC pride increase, NPC love decrease.
+  storyText: '"What," she says acidly, "exactly are you waiting for?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16600,7 +16615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  text: Option Text
+  text: Say nothing.
   description: 
   targetBlock: {fileID: 1273976098}
   hideIfVisited: 0
@@ -16639,7 +16654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 1
-  text: Option Text
+  text: '"Is something on your mind?"'
   description: 
   targetBlock: {fileID: 1273976096}
   hideIfVisited: 0
@@ -16664,7 +16679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 108
   indentLevel: 1
-  text: Option Text
+  text: '"Oh my, look at the time."'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -16932,7 +16947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 1
-  text: Option 11
+  text: '"So, any plans to date while you''re in college?"'
   description: 
   targetBlock: {fileID: 1273976095}
   hideIfVisited: 0
@@ -16957,7 +16972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 1
-  text: Option 10
+  text: '"You know, weirdos attract weirdos..."'
   description: 
   targetBlock: {fileID: 1273976094}
   hideIfVisited: 0
@@ -17225,7 +17240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 1
-  text: Option 8
+  text: '"Time''s growing short."'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -17250,7 +17265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 1
-  text: Option 7
+  text: '"You have something you''d like to tell me, don''t you."'
   description: 
   targetBlock: {fileID: 1273976099}
   hideIfVisited: 0
@@ -17533,7 +17548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  text: Option Text
+  text: Say nothing.
   description: 
   targetBlock: {fileID: 1273976098}
   hideIfVisited: 0
@@ -17572,7 +17587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 1
-  text: Option Text
+  text: '"I mean, if there''s anything you want to tell me..."'
   description: 
   targetBlock: {fileID: 1273976096}
   hideIfVisited: 0
@@ -17597,7 +17612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 1
-  text: Option Text
+  text: '"I''ve got time. Well, the next thirty seconds."'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -17865,7 +17880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 1
-  text: Option 11
+  text: '"By the way, I hear college is prime time for romance."'
   description: 
   targetBlock: {fileID: 1273976095}
   hideIfVisited: 0
@@ -17890,7 +17905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 1
-  text: Option 10
+  text: '"I''m starting to see why you never had a girlfriend."'
   description: 
   targetBlock: {fileID: 1273976094}
   hideIfVisited: 0
@@ -18158,7 +18173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 91
   indentLevel: 1
-  text: Option 8
+  text: '"You''re really milking the clock, you know that?"'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -18183,7 +18198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 1
-  text: Option 7
+  text: '"Look, just admit it already."'
   description: 
   targetBlock: {fileID: 1273976099}
   hideIfVisited: 0
@@ -18481,7 +18496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  text: Option Text
+  text: Say nothing.
   description: 
   targetBlock: {fileID: 1273976098}
   hideIfVisited: 0
@@ -18520,7 +18535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 1
-  text: Option Text
+  text: '"Okay, so, last chance..."'
   description: 
   targetBlock: {fileID: 1273976096}
   hideIfVisited: 0
@@ -18545,7 +18560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 1
-  text: Option Text
+  text: '"Tick tock, time''s running out."'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -18813,7 +18828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 1
-  text: Option 11
+  text: '"So, do you plan to date in college?"'
   description: 
   targetBlock: {fileID: 1273976095}
   hideIfVisited: 0
@@ -18838,7 +18853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 1
-  text: Option 10
+  text: '"Man, they''re going to love your winning personality in college."'
   description: 
   targetBlock: {fileID: 1273976094}
   hideIfVisited: 0
@@ -19106,7 +19121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 1
-  text: Option 8
+  text: '"Tick tock, you''re running out of time."'
   description: 
   targetBlock: {fileID: 1273976097}
   hideIfVisited: 0
@@ -19131,7 +19146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 1
-  text: Option 7
+  text: '"Why don''t you just admit it already?"'
   description: 
   targetBlock: {fileID: 1273976099}
   hideIfVisited: 0
@@ -19399,7 +19414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: You_7. NPC pride increase, NPC love increase.
+  storyText: 'Her: "Hah! So what if I do?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -19428,7 +19443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.5
     y: 553.5
-    width: 88.63636
+    width: 90.65839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19470,7 +19485,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 204.5
     y: 460.5
-    width: 87.5
+    width: 88.81029
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19480,6 +19495,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1273976045}
+  - {fileID: 1273975931}
   - {fileID: 1273975996}
   - {fileID: 1273975995}
   - {fileID: 1273975994}
@@ -19510,7 +19526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.5
     y: 499.5
-    width: 88.63636
+    width: 90.65839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19550,7 +19566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1.5
     y: 537.5
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19592,7 +19608,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.5
     y: 496.5
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19604,6 +19620,7 @@ MonoBehaviour:
   - {fileID: 1273976051}
   - {fileID: 1273976050}
   - {fileID: 1273976049}
+  - {fileID: 1273975946}
   - {fileID: 1273976018}
   - {fileID: 1273976017}
   - {fileID: 1273976016}
@@ -19634,7 +19651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -38
     y: 437
-    width: 82.954544
+    width: 85.11407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19674,9 +19691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 217
   indentLevel: 2
-  text: Option Text
+  text: '"Okay already..."'
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -19942,9 +19959,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 215
   indentLevel: 2
-  text: Option Text
+  text: Take a deep breath. "So..."
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20210,9 +20227,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 2
-  text: Option Text
+  text: '"Speaking of personalities..."'
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20478,9 +20495,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 211
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, well, actually..."'
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20746,9 +20763,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 209
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, actually..."'
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -21012,9 +21029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 207
+  itemId: 233
   indentLevel: 0
-  storyText: Both of you confess. Load IMPASSE ending.
+  storyText: '"Well," you manage at last. "So long, I guess."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -21036,25 +21053,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273975899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 231.34416
-    y: 818.39795
-    width: 128.40909
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 206
-  blockName: End_IMPASSE
+  itemId: 232
+  indentLevel: 0
+  storyText: She seems equally tongue-tied.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1273976110}
-  - {fileID: 1273976114}
-  suppressAllAutoSelections: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1273976112
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21069,9 +21085,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 2
-  text: Option Text
+  text: '"Uh, well..."'
   description: 
-  targetBlock: {fileID: 1273976111}
+  targetBlock: {fileID: 1273976041}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -21332,16 +21348,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273975899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 218
+  itemId: 231
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: EndSceneNeutral
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  storyText: She pretends to think it over. "Oh, alright then," she says at last
+    patronizingly. With a sinking feeling, you realize you've made a huge mistake...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1273976115
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21401,7 +21426,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1273976118
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21428,7 +21453,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1273976119
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21441,6 +21466,107 @@ MonoBehaviour:
   itemId: 222
   indentLevel: 0
   storyText: 'You: "..."'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1273976120
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 226
+  indentLevel: 0
+  shuffleMode: 1
+--- !u!114 &1273976121
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  shuffleMode: 1
+--- !u!114 &1273976122
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d88125c88dab4a44851835e94ff4d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  shuffleMode: 1
+--- !u!114 &1273976123
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  storyText: Flinging all pretense to the wind, you blurt out, "Will you go out with
+    me?"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1273976124
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273975899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 229
+  indentLevel: 0
+  storyText: A small, triumphant smile curls on your lips. You give a sigh full of
+    long-suffering tolerance. "Well, I suppose, if you insist..."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
